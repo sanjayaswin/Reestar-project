@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    text-align: center;
+    color: orange;
+    border-radius: 50px;
+    margin: 20px;
+    padding:  10px;
+}
+h1{
+    color: white;
+}
+li{
+    color:white;
+    display: inline;
+    background-color: black;
+}
+li:hover{
+    color:orange;
+    transition-duration: 1ms;
+    
+}
+li:hover{
+    text-transform: uppercase;
+    transition-duration: 1s;
+}
+.box{
+    border-color:gray;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.products{
+    text-align: center;
+}
+.order{
+    background-color: black;
+    display: inline-block;
+    color:white;
+    padding: 2px;
+    width: 297px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.order:hover{
+    background-color:orange;
+}
+.registration{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    margin: 20px;
+    padding: 10px;
+
+
+}
+.a{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+button{
+    color:white;
+    background-color: transparent;
+    border: none;
+    border: solid orange 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: orange;
+    transition-duration: 1s;
+}
+span{
+    color: orange;
+}
+.one{
+    border: none;
+    border-bottom: solid orange 2px;
+    padding: 5px;
+    background-color: transparent;
+}
+.onee{
+    padding: 10px;
+}
+.a:hover{
+    height: 310px;
+    transition-duration: 1s;
+}
